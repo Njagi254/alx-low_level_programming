@@ -1,6 +1,2 @@
-#include <stdio.h>
-int main(void)
-{
-    return (0);
-}
-
+#!/bin/bash
+gcc -E $CFILE -o c
