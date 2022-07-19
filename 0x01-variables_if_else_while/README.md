@@ -1,1 +1,2 @@
-Readme file for 0x01.c
+readme file for task 0
+readme file for task 1
