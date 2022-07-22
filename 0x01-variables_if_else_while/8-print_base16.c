@@ -3,19 +3,24 @@
 /**
  * main - Entry point
  *
- * Desccription :  prints all the numbers of base 16 in lowercase, followed by a new line.
+ * Desccription :  prints all the numbers of base 16 in lowercase,
+ *  followed by a new line.
  *
  * return : Always 0 (Success)
  */
 int main(void)
 {
-putchar(ch);
+char ch;
+int n;
 
-for (ch = ; ch <= ; ch++)
+for (n = 48; n <= 57; n++)
+{
+	putchar(n);
+}
+for (ch = 'a'; ch <= 'f'; ch++)
 {
 	putchar(ch);
 }
-
-putchar('\n);
+putchar('\n');
 return (0);
 }
