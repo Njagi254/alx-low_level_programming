@@ -10,16 +10,30 @@
  */
 int main(void);
 {
-	int (i, e, g);
-	for (i < e; i < g; i++)
-	for (e < g; e++)
+int (i);
+int (e);
+int (g);
+
+for (i =  48; i <=  57; i++)
 	{
-		putchar(i);
-		putchar(e);
-		putchar(g);
+	for (e = 49; e <= 57; e++)
+		{
+		for (g = 50; g <= 57; g++)
+			{
+			if (e > i && g > e)
+			{
+			putchar(i);
+			putchar(e);
+			putchar(g);
+			}
+			if (i != 56; || e != 57)
+			{
+				putchar(44);
+				putchar(32);
+			}
+putchar(10);
+			}
+		}
 	}
-	putchar(44);
-	putchar(32);
-	putchar(10);
 return (0);
 }
