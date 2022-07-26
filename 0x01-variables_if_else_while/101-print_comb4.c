@@ -8,34 +8,34 @@
  *
  * return: Alasy 0 (Success)
  */
-int main(void);
-
-int (i);
-int (e);
-int (g);
+int main(void)
 {
-for (i =  48; i <=  57; i++)
+int (ch);
+int (n);
+int (m);
+{
+for (ch =  48; ch <=  57; ch++)
 	{
-	for (e = 49; e <= 57; e++)
+	for (n = 49; n <= 57; n++)
 		{
-		for (g = 50; g <= 57; g++)
+		for (m = 50; m <= 57; m++)
 			{
-			if (e > i && g > e)
-			{
-			putchar(i);
-			putchar(e);
-			putchar(g);
-			}
-			if (i != 56; || e != 57)
-			{
+			if (n > ch && m > n)
+				{
+				putchar(ch);
+				putchar(n);
+				putchar(m);
+
+				if (ch != 56 || n != 57)
+				{
 				putchar(44);
 				putchar(32);
-			}
-putchar(10);
+				}
+				}
 			}
 		}
-return (0);
 	}
 }
-/**return (0);
-}*/
+putchar(10);
+return (0);
+}
