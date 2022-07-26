@@ -9,11 +9,11 @@
  * return: Alasy 0 (Success)
  */
 int main(void);
-{
+
 int (i);
 int (e);
 int (g);
-
+{
 for (i =  48; i <=  57; i++)
 	{
 	for (e = 49; e <= 57; e++)
@@ -34,6 +34,8 @@ for (i =  48; i <=  57; i++)
 putchar(10);
 			}
 		}
-	}
 return (0);
+	}
 }
+/**return (0);
+}*/
